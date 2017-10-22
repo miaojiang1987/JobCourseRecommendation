@@ -32,7 +32,7 @@ job_id=['389861378','445768897','389861378','435429391','432139389','448626733',
 countA=0#first random counter(short period visit limitation)
 countB=0#second random counter(long period visit limitation)
 countC=0#third random counter(sleep period visit limitation)
-for i in range(len(row)):
+for i in range(len(job_id)):
 	# add counter
 	countA=countA+1
 	countB=countB+1
