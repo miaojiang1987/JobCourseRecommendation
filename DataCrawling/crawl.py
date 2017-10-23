@@ -68,8 +68,8 @@ while 1+1>1:
 		print('total visits:%d total time:%ds speed:%f/min'%(sum,clock,sum/clock*60))
 	else:#relogin
 		web.get('https://www.linkedin.com/uas/login?fromSignIn=true&trk=uno-reg-guest-home')
-		#web.find_element_by_name("session_key").send_keys("xinkaokao4@163.com")
-		#web.find_element_by_name("session_password").send_keys("413672751")
+		#web.find_element_by_name("session_key").send_keys("")
+		#web.find_element_by_name("session_password").send_keys("")
 		web.find_element_by_name("signin").click()
 		time.sleep(3)
 		web.get(url)
