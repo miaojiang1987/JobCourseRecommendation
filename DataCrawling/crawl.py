@@ -48,8 +48,8 @@ web=webdriver.Firefox()
 
 #login
 web.get('https://www.linkedin.com/uas/login?fromSignIn=true&trk=uno-reg-guest-home')
-web.find_element_by_name("session_key").send_keys("xinkaokao4@163.com")
-web.find_element_by_name("session_password").send_keys("413672751")
+web.find_element_by_name("session_key").send_keys("账号")
+web.find_element_by_name("session_password").send_keys("密码")
 web.find_element_by_name("signin").click()
 time.sleep(3)
 
